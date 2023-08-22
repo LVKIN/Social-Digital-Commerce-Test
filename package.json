@@ -1,0 +1,14 @@
+{
+  "name": "socialsahomolog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "scripts": {
+    "start": "vtex link --clean --verbose"
+  },
+  "dependencies": {
+    "global": "^4.4.0",
+    "vtex": "^3.0.0"
+  },
+  "devDependencies": {}
+}

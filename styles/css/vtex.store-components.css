@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header),
+:global(.vtex-store-header-2-x-container) {
+  display: none;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer), 
+:global(.vtex-store-components-3-x-infoCardImageContainer) {
+  width: auto;
+  padding: 0;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline) {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+
+:global(.vtex-store-components-3-x-infoCardSubhead) {
+  margin: 0;
+  font-size: 14px;
+}
+
+:global(.vtex-slider-layout-0-x-sliderArrows) :global(.vtex-slider-layout-0-x-caretIcon) {
+  display: none;
+}
+
+:global(.vtex-slider-layout-0-x-sliderArrows) {
+  background-color: #fff !important;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+
+:global(.vtex-slider-layout-0-x-sliderLeftArrow) {
+  left: 150px
+}
+
+:global(.vtex-slider-layout-0-x-sliderRightArrow) {
+  right: 150px
+}
+
+:global(.vtex-slider-layout-0-x-sliderArrows)::after {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+
+:global(.vtex-slider-layout-0-x-sliderLeftArrow)::after {
+  background: url("https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/1e645e59-4257-4c3f-a964-9bc5caaa056a___9005b23a4bac648a9da3ec2c7dd993fa.png") no-repeat;
+  background-size: contain;
+}
+
+:global(.vtex-slider-layout-0-x-sliderRightArrow)::after {
+  background: url("https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/b6a8f5fc-caaa-4c84-a914-b469987ad242___31c4e955a7809d2f0b161b1d85f56371.png") no-repeat;
+  background-size: contain;
+}

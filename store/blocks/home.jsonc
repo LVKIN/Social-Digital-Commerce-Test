@@ -1,0 +1,114 @@
+{
+  "store.home": { 
+    "blocks": [
+      "main-banner",
+      "info-card-container#short-info",
+      "quiz-banner",
+      "triple-banner",
+      "slider-layout#carousel",
+      "list-context.product-list",
+      "prescribe-banner",
+      "double-banner"
+    ]
+  },
+
+  "info-card-container#short-info": {
+    "children": [
+      "info-card#1",
+      "info-card#2",
+      "info-card#3",
+      "info-card#4"
+    ]
+  },
+
+  "slider-layout#carousel": {
+    "props": {
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      }
+    },
+    "children": ["supplement-slider#pet-health", "supplement-slider#pet-health"]
+  },
+
+  "info-card#1": {
+    "props": {
+      "id": "free-shipping",
+      "textPosition": "right",
+      "imageUrl": "https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/bd17210f-3a8f-42a9-86eb-641389833e9b___388bd47469ba19116f8bb37ca43d52ae.png",
+      "headline": "FRETE GRÁTIS", 
+      "subhead": "para compras acima de R$ 150,00",
+      "callToActionMode": "none"
+    }
+  },
+  "info-card#2": {
+    "props": {
+      "id": "installment",
+      "textPosition": "right",
+      "imageUrl": "https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/bf46487a-cc6f-4fd0-8e43-3695ab5f10d2___31b318f26cf9eb32f4c5c2068a9b0639.png",
+      "headline": "PARCELE SUAS COMPRAS", 
+      "subhead": "Parcele em até 5x sem juros",
+      "callToActionMode": "none"
+    }
+  },
+  "info-card#3": {
+    "props": {
+      "id": "more-economy",
+      "textPosition": "right",
+      "imageUrl": "https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/78ba15b4-c3de-4eb8-bae9-1ee165a8df23___151a7f98a7aa56de6789839aab9ad8d3.png",
+      "headline": "MAIS ECONOMIA", 
+      "subhead": "Compre os nossos Kits",
+      "callToActionMode": "none"
+    }
+  },
+  "info-card#4": {
+    "props": {
+      "id": "safe-buy",
+      "textPosition": "right",
+      "imageUrl": "https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/26c99530-f3ce-4d45-8ca0-722a4863df4b___1bdadd88743db6ce24b61a561c0b4188.png",
+      "headline": "COMPRA SEGURA", 
+      "subhead": "Loja com SSL e proteção de dados",
+      "callToActionMode": "none"
+    }
+  },
+
+  "supplement-slider#pet-health": {
+    "props": {
+      "blockClass": "pet-health"
+    }
+  },
+
+  "list-context.product-list": {
+    "blocks": ["product-summary.shelf#products"],
+    "children": ["slider-layout#products-carousel"]
+  },
+
+  "product-summary.shelf#products": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+
+  "slider-layout#products-carousel": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 1.5,
+        "mobile": 1.2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "always"
+    }
+  }
+
+}

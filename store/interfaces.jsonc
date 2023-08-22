@@ -1,0 +1,24 @@
+{
+  "main-banner": {
+    "component": "MainBanner"
+  },
+  "info-card-container": {
+    "component": "InfoCard",
+    "composition": "children"
+  },
+  "quiz-banner": {
+    "component": "QuizBanner"
+  },
+  "triple-banner": {
+    "component": "TripleBanner"
+  },
+  "supplement-slider": {
+    "component": "SupplementSlider"
+  },
+  "prescribe-banner": {
+    "component": "PrescribeBanner"
+  },
+  "double-banner": {
+    "component": "DoubleBanner"
+  }
+}
